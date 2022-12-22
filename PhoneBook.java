@@ -7,13 +7,10 @@ import java.util.SortedMap;
 import java.util.TreeMap;
 
 public class PhoneBook {
-  // Map to store phone numbers, with the name as the key
   private Map<String, String[]> phoneNumbers;
-  // Map to store addresses, with the name as the key
   private Map<String, String[]> addresses;
 
   public PhoneBook() {
-    // Initialize the maps
     phoneNumbers = new HashMap<>();
     addresses = new HashMap<>();
   }
